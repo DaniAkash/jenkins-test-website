@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const siteConfig = require('./site-config');
 
 module.exports = {

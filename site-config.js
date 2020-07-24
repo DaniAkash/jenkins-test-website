@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
+  siteTitle: process.env.WEBSITE_NAME || `Gatsby Universal`,
   siteTitleShort: `GatsbyU`,
   siteDescription: `An opinionated starter for Gatsby.`,
   siteUrl: `https://gu.fabianschultz.com`,
